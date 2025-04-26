@@ -1,0 +1,13 @@
+prefix=D:/FINANCEagent/agent/Library
+exec_prefix=D:/FINANCEagent/agent/Library
+libdir=D:/FINANCEagent/agent/Library/lib
+sharedlibdir=D:/FINANCEagent/agent/Library/lib
+includedir=D:/FINANCEagent/agent/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
